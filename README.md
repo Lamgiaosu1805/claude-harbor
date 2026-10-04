@@ -6,7 +6,7 @@ Claude Harbor is a small native macOS app that creates independent copies of you
 
 [Download v0.1.0](https://github.com/anlvdt/claude-harbor/releases/tag/v0.1.0) · [Tiếng Việt](README.vi.md) · [How sync works](docs/session-sync.md)
 
-![Claude Harbor managing three independent profiles](docs/screenshots/claude-harbor-main.png)
+![Claude Harbor managing three independent profiles](docs/screenshots/claude-harbor-native.png)
 
 ## What you can do
 

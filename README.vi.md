@@ -6,7 +6,7 @@ Claude Harbor là app macOS nhỏ giúp tạo nhiều bản Claude Desktop thậ
 
 [Tải v0.1.0](https://github.com/anlvdt/claude-harbor/releases/tag/v0.1.0) · [English](README.md)
 
-![Giao diện Claude Harbor](docs/screenshots/claude-harbor-main.png)
+![Giao diện Claude Harbor](docs/screenshots/claude-harbor-native.png)
 
 ## Cách dùng
 
