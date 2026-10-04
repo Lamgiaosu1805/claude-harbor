@@ -1,0 +1,12 @@
+# Claude Harbor — Facebook poster
+
+Generation mode: built-in image_gen. Asset: `facebook-poster.png`.
+
+## Final prompt
+
+Use case: ads-marketing.
+Create a beautiful finished social launch poster for the independent macOS app Claude Harbor, for a Vietnamese Facebook announcement. Landscape composition approximately 3:2, high resolution, crisp Vietnamese typography. Art direction: exceptionally polished editorial Swiss layout, warm ivory background, deep midnight teal typography, restrained sea-green accents, subtle paper grain, generous negative space, impeccable alignment, premium desktop-software launch aesthetic. It must look like a carefully designed creative studio poster.
+
+Layout: a small original icon made of three overlapping rounded app windows connected by a curved arrow, followed by the exact app name "Claude Harbor" near the top left. Upper-left and center-left: large, bold, expertly kerned Vietnamese headline split into two lines: "Nhiều tài khoản." then "Một nút đồng bộ." The second line has an elegant teal highlight or understated emphasis. Beneath the headline, a short readable supporting line: "Tiếp tục phiên Claude Code giữa các tài khoản." On the right, tasteful dimensional illustration of exactly three independent frosted ivory app-window cards, layered with precise perspective, soft shadows and thin warm-gray outlines. Label the cards clearly and correctly "Pro 1", "Pro 2", "Magpie". Small generic conversation strokes inside each card; smoothly curved teal paths join the cards to one small central sync button with a two-arrow symbol. These are conceptual illustrations, not screenshots or a redesign of the real product interface. Give the diagram calm, balanced geometry, no clutter, restrained sea-glass 3D details.
+
+A thin editorial rule separates a tidy bottom strip. Bottom left in readable dark teal type: "Code local trên macOS". Nearby a small quiet pill reads "Mã nguồn mở · v0.1.0". Bottom right: "github.com/anlvdt/claude-harbor". Keep all text exact, perfectly spelled with Vietnamese diacritics, strong hierarchy, readable at phone feed size, with safe margins. No additional text, false features, web Chat / cloud sync claims, official Anthropic logos, watermark, laptop photograph, people, neon, busy gradients, cursor, screenshot window chrome or extraneous decorative badges. Make the finished layout confident, elegant and visually memorable.
