@@ -98,6 +98,15 @@ class SyncTests(unittest.TestCase):
         self.assertEqual(len({d['cliSessionId'] for _,_,d in sync.records()}),len(sync.NAMES))
         self.assertEqual(sync.sync_all()['sessions'],1)
 
+    def test_unicode_line_separators_inside_strings(self):
+        # Claude Code writes U+2028/U+2029/U+0085 unescaped; they are not JSONL row breaks.
+        self.turn(self.rows, self.d, 'pasted text and\x85more', self.cli)
+        self.file.write_text('\n'.join(json.dumps(x, ensure_ascii=False) for x in self.rows) + '\n')
+        self.record.write_text(json.dumps(self.d))
+        self.assertEqual(sync.sync_all()['sessions'], 1)
+        self.assertTrue(all(len(self.member(p)['signature']) == 4 for p in sync.NAMES))
+        self.assertEqual(sync.sync_all()['filesChanged'], 0)
+
     def test_failure_rolls_back(self):
         before = self.record.read_bytes()
         original = sync.copy_session

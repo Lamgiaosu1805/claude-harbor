@@ -61,7 +61,8 @@ def snapshot(profile, path, record):
     files, rows, signature, seen = {}, [], [], set()
     for sid in ids:
         t = transcript(profile, sid)
-        body = [json.loads(l) for l in t.read_text().splitlines() if l.strip()]
+        # JSONL rows end at '\n' only; splitlines() also breaks on U+2028/U+2029/U+0085 inside strings.
+        body = [json.loads(l) for l in t.read_text().split('\n') if l.strip()]
         files[sid] = (t, body)
         if sid == main_id:
             rows = body
